@@ -49,3 +49,7 @@ document.querySelectorAll('.employee-name').forEach(cell => {
 ![theme settings](https://github.com/Zu34/dynamic-js-animation-/blob/main/screencapture-127-0-0-1-5500-test-html-2024-12-03-12_27_10.png)
 
 ![theme settings](https://github.com/Zu34/dynamic-js-animation-/blob/main/screencapture-127-0-0-1-5500-test-html-2024-12-03-12_29_26.png)
+
+# Demo
+[Watch the video](https://github.com/Zu34/dynamic-js-animation-/blob/main/Recording%202024-12-03%20150209.mp4)
+
