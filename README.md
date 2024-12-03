@@ -8,7 +8,7 @@
   department: 'Development', salary: '$100,000' }, { name: 'Janyy', 
   position: 'Web Developer', department: 'Product', salary: '$120,000' 
   }, ...];
-
+```
 
 # the code in clicks file has something has to be clearfiyed 
 
