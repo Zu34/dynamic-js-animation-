@@ -1,0 +1,44 @@
+# Table-dynimc using js, rendered dynamically from a JavaScript array
+
+## Interactive Reveal Animation: Clicking on an employee's name progressively displays their
+
+# example entering Data
+- const employees = [
+  { name: 'Nurra', position: 'Software Engineer', department: 'Development', salary: '$100,000' },
+  { name: 'Janyy', position: 'Web Developer', department: 'Product', salary: '$120,000' },
+  ...
+];
+
+
+# the code in clicks file has something has to be clearfiyed 
+
+### Redundancy: Each cell (position, department, and salary) is handled explicitly, leading to repetitive code.
+
+###  Delay values (200ms, 500ms, 800ms) are manually repeated, making it harder to adjust if needed.
+
+## I prefere using this block of code instead;
+
+```javascript 
+//clicks.js
+
+function showupData(row) {
+  const dataCells = row.querySelectorAll('.employee-data');
+  
+  dataCells.forEach((cell, index) => {
+    setTimeout(() => {
+      cell.classList.add('revealed');
+    }, index * 300); //  delay (300ms per cell)
+  });
+}
+document.querySelectorAll('.employee-name').forEach(cell => {
+  cell.addEventListener('click', function () {
+    const row = this.parentElement;
+    
+    // Reset all cells in the row
+    row.querySelectorAll('.employee-data').forEach(cell => cell.classList.remove('revealed'));
+    
+    // Revealing data 
+    showupData(row);
+  });
+});
+
