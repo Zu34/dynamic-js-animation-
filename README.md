@@ -44,8 +44,8 @@ document.querySelectorAll('.employee-name').forEach(cell => {
 
 # screeenshots
 
-## 
-showing any data
+## Showing Any Data
+
 ![theme settings](https://github.com/Zu34/dynamic-js-animation-/blob/main/screencapture-127-0-0-1-5500-test-html-2024-12-03-12_27_10.png)
-![theme settings] (https://github.com/Zu34/dynamic-js-animation-/blob/main/screencapture-127-0-0-1-5500-test-html-2024-12-03-12_29_26.png)
+
 ![theme settings](https://github.com/Zu34/dynamic-js-animation-/blob/main/screencapture-127-0-0-1-5500-test-html-2024-12-03-12_29_26.png)
